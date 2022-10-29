@@ -1,3 +1,12 @@
+---
+title: 游戏党的神兵利器！侃侃AMD的3D vcache技术
+date: 2022-10-29 19:39:17
+permalink: /pages/d99163/
+categories:
+  - 更多
+tags:
+  - 
+---
 #              游戏党的神兵利器！侃侃AMD的3d缓存技术
 
 ​        2022年1月4日，在lisa Su高调展示了带3d堆叠缓存的5900x样品的几个月后，amd终于在CES2022上发布了他们采用了全新3d堆叠技术的桌面处理器Ryzen7 5800X3D。
