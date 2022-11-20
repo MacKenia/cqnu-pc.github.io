@@ -95,15 +95,16 @@ module.exports = [
   ["tabs"],
   ["cursor-effects"],
   [
-    'vuepress-plugin-comment',
+    "vuepress-plugin-vssue-global",
     {
-      choosen: 'valine', 
-      // options选项中的所有参数，会传给Valine的配置
-      options: {
-        el: '#valine-vuepress-comment',
-        appId: 'h6qw1O0GOXYGelZwBWhHtob1-MdYXbMMI',
-        appKey: 'yyNMj2RRrMmflXqKRuoCSLzv'
-      }
-    }
-  ]
+      platform: "github",
+      title: "[Comment]<%- frontmatter.title %>",
+      needComments: true,
+      // 其他的 Vssue 配置
+      clientId: "09ad26a505fb2570d603",
+      clientSecret: "09ad6d1bf3bd08b4fe0e0579e0e1abc2203531ca",
+      owner: "CQNU-PC",
+      repo: "cqnu-pc.github.io",
+    },
+  ],
 ];

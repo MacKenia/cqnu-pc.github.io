@@ -31,3 +31,16 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           GITEE_TOKEN: ${{ secrets.GITEE_TOKEN}}
         run: npm install && npm run deploy
+      - name: DeployGitee
+        uses: kimmy214/gitee-pages@v1
+        with:
+          external_repository: cqnu-pc/cqnu-pc
+          personal_token: ${{ secrets.GITEE_TOKEN }}
+          publish_branch: master
+          publish_dir: ./docs/.vuepress/dist/
+          # allow_empty_commit: true
+          # keep_files: true
+          # force_orphan: true
+          user_name: 'cqnu-pc'
+          user_email: '11794951+cqnu-pc@user.noreply.gitee.com'
+          commit_message: ${{ github.event.head_commit.message }}

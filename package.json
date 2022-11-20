@@ -35,9 +35,10 @@
     "yamljs": "^0.3.0"
   },
   "dependencies": {
+    "@vssue/api-github-v4": "^1.4.7",
     "busuanzi.pure.js": "^1.0.3",
     "vue-tabs-component": "^1.5.0",
-    "vuepress-plugin-comment": "^0.7.3",
-    "vuepress-plugin-tabs": "^0.3.0"
+    "vuepress-plugin-tabs": "^0.3.0",
+    "vuepress-plugin-vssue-global": "0.0.3"
   }
 }
