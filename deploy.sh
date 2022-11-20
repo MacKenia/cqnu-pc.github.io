@@ -40,7 +40,6 @@ git push -f $githubUrl gh-pages # 推送到github
 # 推送到gitee
 git config --global user.email "11794951+cqnu-pc@user.noreply.gitee.com"
 git branch -m master
-echo $githubUrl
 git push -f https://cqnu-pc:${GITEE_TOKEN}@gitee.com/cqnu-pc/cqnu-pc.git master
 
 
