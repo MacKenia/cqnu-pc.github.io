@@ -38,7 +38,7 @@ jobs:
           repository: 'https://gitee.com/cqnu-pc/cqnu-pc'
           password: ${{ secrets.GITEE_TOKEN }}
           branch: 'master'
-          directory: '/''
+          directory: '/'
           # allow_empty_commit: true
           # keep_files: true
           # force_orphan: true
