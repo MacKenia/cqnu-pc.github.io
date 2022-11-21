@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: https://symbol-node.oss-cn-shanghai.aliyuncs.com/blog/basic/background.jpg
-heroText: 💻 Pc 协会技术栈
+heroText: 💻 PC 协会技术栈
 tagline: 📖  让本技术栈来为你提供帮助吧  ❤️️
 
 pageClass: vdoing-index-class
@@ -23,8 +23,6 @@ features:
     imgUrl: https://img.icons8.com/stickers/200/000000/bookmark.png
 postList: detailed
 ---
-
-
 <ClientOnly>
   <IndexBigImg />
 </ClientOnly>
